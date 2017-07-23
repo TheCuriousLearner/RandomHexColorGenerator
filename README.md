@@ -5,8 +5,13 @@ Just upload the rcol.php file to your shared hosting account or web server root 
 ## About the code
 ### PHP Functions Used
 **rand()** to generates a integer between the hex numbers 0x000000 and 0xFFFFFF, this is the range of web colors(from black to white).
+
 **dechex()** to convert base 10 numbers(decimals) into base 16 numbers (hexadecimals).
 ### Variables Used
 **colorCode** to store the hex code generated randomly.
-
+## To Do List
+- [x] Make the code DRY compatible by implementing function
+- [ ] Also show RGB value of the color besides hex code
+- [ ] Show complementary colors
+- [ ] Some UI improvements
 Coded just for fun, enjoy :)
