@@ -26,6 +26,17 @@ $colorCode = $colorCode.'0';
 }
 return $colorCode;
 }
+//I used https://appendto.com/2017/02/rgb-to-hex-understanding-the-major-web-color-codes/ as a referance to create the below function.
+function hexToRGB($hex){
+$partialvalue=0;
+$hexcode = array();
+$hexcode = str_split($hex);
+//getting red, green, blue value
+$red=hexdec($hexcode[0])*16+hexdec($hexcode[1]);
+$green=hexdec($hexcode[2])*16+hexdec($hexcode[3]);
+$blue=hexdec($hexcode[4])*16+hexdec($hexcode[5]);
+return "rgb (".$red.", ".$green.", ".$blue.")";
+}
 ?>
 <!--
 Random Color Generator. A simple educational script which generates a random hex color code
@@ -33,7 +44,12 @@ and show the hex code in top-left corner for easy copy-paste. Written in PHP, so
 -->
 <p>
 <?php
-echo '#'.$colorCode;
+echo '#'.$colorCode."<br><br>";
+?>
+</p>
+<p>
+<?php
+echo hexToRGB($colorCode);
 ?>
 </p>
 </body>
