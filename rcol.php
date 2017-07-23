@@ -30,7 +30,7 @@ color: black;
 <body>
 <!--
 Random Color Generator. A simple educational script which generates a random hex color code
-and show the hex code in top-left corner for easy copy-paste. Written in PHP, source code is available online :)
+and show the hex code in top-left corner for easy copy-paste. Written in PHP, source code is available online https://github.com/TheCuriousLearner/RandomHexColorGenerator :)
 -->
 <p>
 <?php
