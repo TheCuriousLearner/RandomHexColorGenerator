@@ -14,4 +14,8 @@ Just upload the rcol.php file to your shared hosting account or web server root 
 - [ ] Also show RGB value of the color besides hex code
 - [ ] Show complementary colors
 - [ ] Some UI improvements
+## Reference
+I've refered these articles for developing this script. These might be useful to you as well :)
+[https://appendto.com/2017/02/rgb-to-hex-understanding-the-major-web-color-codes/](https://appendto.com/2017/02/rgb-to-hex-understanding-the-major-web-color-codes/) 
+
 Coded just for fun, enjoy :)
